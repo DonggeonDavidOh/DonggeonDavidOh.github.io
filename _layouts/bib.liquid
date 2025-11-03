@@ -254,6 +254,42 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
+    {%- comment -%} ---- Inline videos for entries that define them ---- {%- endcomment -%}
+    {%- if entry.video_intro or entry.video_talk -%}
+      <div class="pub-embeds">
+        {%- if entry.video_intro -%}
+          <figure class="pub-embed">
+            <video
+              class="pub-video"
+              controls
+              muted
+              playsinline
+              preload="metadata"
+              style="max-width:100%; border-radius:12px; display:block; margin-top:.5rem;">
+              <source src="{{ entry.video_intro | relative_url }}" type="video/mp4">
+            </video>
+            {%- if entry.video_intro_caption -%}
+              <figcaption class="pub-caption">{{ entry.video_intro_caption }}</figcaption>
+            {%- endif -%}
+          </figure>
+        {%- endif -%}
+
+        {%- if entry.video_talk -%}
+          <figure class="pub-embed">
+            <video
+              class="pub-video"
+              controls
+              preload="metadata"
+              style="max-width:100%; border-radius:12px; display:block; margin-top:.75rem;">
+              <source src="{{ entry.video_talk | relative_url }}" type="video/mp4">
+            </video>
+            {%- if entry.video_talk_caption -%}
+              <figcaption class="pub-caption">{{ entry.video_talk_caption }}</figcaption>
+            {%- endif -%}
+          </figure>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
