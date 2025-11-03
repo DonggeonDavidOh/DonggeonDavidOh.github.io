@@ -265,7 +265,8 @@
               muted
               playsinline
               preload="metadata"
-              style="max-width:100%; border-radius:12px; display:block; margin-top:.5rem;">
+              style="max-width:100%; border-radius:12px; display:block; margin-top:.5rem;"
+            >
               <source src="{{ entry.video_intro | relative_url }}" type="video/mp4">
             </video>
             {%- if entry.video_intro_caption -%}
@@ -280,7 +281,8 @@
               class="pub-video"
               controls
               preload="metadata"
-              style="max-width:100%; border-radius:12px; display:block; margin-top:.75rem;">
+              style="max-width:100%; border-radius:12px; display:block; margin-top:.75rem;"
+            >
               <source src="{{ entry.video_talk | relative_url }}" type="video/mp4">
             </video>
             {%- if entry.video_talk_caption -%}
