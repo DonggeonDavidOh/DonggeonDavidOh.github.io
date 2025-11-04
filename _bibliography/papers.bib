@@ -1,6 +1,6 @@
 ---
 ---
-
+@comment{
 @string{aps = {American Physical Society,}}
 
 @book{einstein1920relativity,
@@ -113,6 +113,7 @@
   preview={wave-mechanics.gif},
   abbr={Vision}
 }
+}
 
 @article{oh2025provably,
   bibtex_show={true},
@@ -120,10 +121,11 @@
   selected={true},
   preview={png_IASEAI_2026.png},
   abstract={Recent advances in reinforcement learning (RL) enable its use on increasingly complex tasks, but the lack of formal safety guarantees still limits its application in safety-critical settings. A common practical approach is to augment the RL policy with a safety filter that overrides unsafe actions to prevent failures during both training and deployment. However, safety filtering is often perceived as sacrificing performance and hindering the learning process. We show that this perceived safety–performance tradeoff is not inherent and prove, for the first time, that enforcing safety with a sufficiently permissive safety filter does not degrade asymptotic performance. We formalize RL safety with a safety-critical Markov decision process (SC-MDP), which requires categorical, rather than high-probability, avoidance of catastrophic failure states. Additionally, we define an associated filtered MDP in which all actions result in safe effects, thanks to a safety filter that is considered to be a part of the environment. Our main theorem establishes that (i) learning in the filtered MDP is safe categorically, (ii) standard RL convergence carries over to the filtered MDP, and (iii) any policy that is optimal in the filtered MDP—when executed through the same filter—achieves the same asymptotic return as the best safe policy in the SC-MDP, yielding a complete separation between safety enforcement and performance optimization. We validate the theory on Safety Gymnasium with representative tasks and constraints, observing zero violations during training and final performance matching or exceeding unfiltered baselines. Together, these results shed light on a long-standing question in safety-filtered learning and provide a simple, principled recipe for safe RL: train and deploy RL policies with the most permissive safety filter that is available.},
-  html={https://arxiv.org/abs/2510.18082},
+  arxiv={https://arxiv.org/abs/2510.18082},
   pdf={oh2025provably.pdf},
+  annotation={* Equal Contribution},
   title={Provably Optimal Reinforcement Learning under Safety Filtering},
-  author={Oh, Donggeon David and Nguyen, Duy P and Hu, Haimin and Fisac, Jaime F},
+  author={Oh*, Donggeon David and Nguyen*, Duy P and Hu, Haimin and Fisac, Jaime F},
   journal={arXiv preprint arXiv:2510.18082},
   year={2025}
 }
@@ -139,9 +141,10 @@
   video_intro = {assets/video/safety_with_agency_intro.mp4},
   video_intro_caption = {Short & Exciting Intro (1 min, muted)},
   video_talk  = {assets/video/safety_with_agency_talk.mp4},
-  video_talk_caption  = {RSS 2025 Talk (4 min, narration by myself!)},
+  video_talk_caption  = {RSS 2025 Talk (4 min, narraed by myself!)},
+  annotation={* Equal Contribution},
   title={Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports},
-  author={Oh, Donggeon David and Lidard, Justin and Hu, Haimin and Sinhmar, Himani and Lazarski, Elle and Gopinath, Deepak and Sumner, Emily S and DeCastro, Jonathan A and Rosman, Guy and Leonard, Naomi Ehrich and and Fisac, Jaime Fern{\'a}ndez},
+  author={Oh*, Donggeon David and Lidard*, Justin and Hu, Haimin and Sinhmar, Himani and Lazarski, Elle and Gopinath, Deepak and Sumner, Emily S and DeCastro, Jonathan A and Rosman, Guy and Leonard, Naomi Ehrich and and Fisac, Jaime Fern{\'a}ndez},
   booktitle={Proceedings of Robotics: Science and Systems},
   year={2025}
 }
@@ -153,8 +156,9 @@
   abstract={This study presents a framework to guarantee safety for a class of second-order nonlinear systems under multiple state and input constraints. To facilitate real-world applications, a safety-critical controller must consider multiple constraints simultaneously, while being able to impose general forms of constraints designed for various tasks (e.g., obstacle avoidance). With this in mind, we first devise a zeroing control barrier function (ZCBF) using a newly proposed nominal evading maneuver. By designing the nominal evading maneuver to 1) be continuously differentiable, 2) satisfy input constraints, and 3) be capable of handling other state constraints, we deduce an ultimate invariant set, a subset of the safe set that can be rendered forward invariant with admissible control inputs. Thanks to the development of the ultimate invariant set, we then propose a safety-critical controller, which is a computationally tractable one-step model predictive controller (MPC) with guaranteed recursive feasibility. We validate the proposed framework in simulation, where a fixed-wing UAV tracks a circular trajectory while satisfying multiple safety constraints including collision avoidance, bounds on flight speed and flight path angle, and input constraints.},
   html={https://ieeexplore.ieee.org/abstract/document/10383422},
   pdf={oh2023safety.pdf},
+  annotation={* Equal Contribution},
   title={Safety-critical control under multiple state and input constraints and application to fixed-wing UAV},
-  author={Oh, Donggeon David and Lee, Dongjae and Kim, H Jin},
+  author={Oh*, Donggeon David and Lee*, Dongjae and Kim, H Jin},
   booktitle={2023 62nd IEEE Conference on Decision and Control (CDC)},
   pages={1748--1755},
   year={2023},
@@ -179,6 +183,7 @@
 @inproceedings{oh2022real,
   bibtex_show={true},
   abbr={ICCAS},
+  preview={png_ICCAS_2022.png},
   abstract={Quadrotor UAV carrying a payload with a cable can be a prominent setup for aerial transportation. However, it is challenging for the suspended load system to navigate through tunnel-like obstacles if the vertical gap is narrower than the length of the cable. We aim to resolve this problem by adopting the pulley mechanism which controls the cable length. This paper presents a model predictive control based real-time trajectory generation algorithm for a quadrotor with its load suspended from a pulley, or the quadrotor-pulley system. We design a cost function that can be generally applied for avoiding obstacles with rectangular surfaces. Using the cost function, an optimal control problem is formulated, which is then solved by implementing model predictive control algorithm with sequential quadratic programming solver. We employ the state-of-the-art real-time iteration scheme to promote computational efficiency of the algorithm. The presented algorithm is demonstrated with simulations, where trajectories for the quadrotor-pulley system were successfully generated. Collision-free trajectories through tunnels with various heights and lengths were generated in real-time, thus validating the robustness of the algorithm.},
   html={https://ieeexplore.ieee.org/abstract/document/10003724},
   pdf={oh2022real.pdf},
