@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our lastest work on optimality of RL under safety filtering has been posted on arXiv!
+Our latest work on [optimality of RL under safety filtering](https://arxiv.org/abs/2510.18082) has been posted on arXiv!
