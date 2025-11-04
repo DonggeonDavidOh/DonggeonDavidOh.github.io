@@ -27,14 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Keywords:** **Safety-Critical Learning and Control**, **Human–Robot Interaction**, **Decision-Making under Uncertainty**.
+<!-- **Keywords:** **Safety-Critical Learning and Control**, **Human–Robot Interaction**, **Decision-Making under Uncertainty**. -->
 
-I push the boundaries of safety assurance for intelligent systems. In doing so,
+---
+
+I push the boundaries of **safety assurance for intelligent systems**. In doing so,
 
 - I integrate insights from **control theory**, **reinforcement learning (RL)**, and **dynamic game theory** to certify and enforce safety of high-dimensional, black-box systems under uncertainty.
-- I investigate the interplay between **humans and robots** in safety-critical scenarios and how to foster safe, smooth, and trustworthy collaboration.
+- I investigate the interplay between **humans and robots** in safety-critical scenarios and how to foster safe, smooth, and **trustworthy collaboration**.
 
-Ultimately, I envision a world where robots operate safely amidst other agents, including humans, in unstructured, open-world environments.
+Ultimately, I envision a world where robots operate safely amidst other agents, including humans, in **unstructured, open-world environments**.
 
 ---
 
