@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-05-01 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our work on AI-assited car racing with human-centered safety filters has been accepted to RSS 2025! See you at LA :)
