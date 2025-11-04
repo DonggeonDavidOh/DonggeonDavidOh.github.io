@@ -35,11 +35,11 @@ Hi there :) I’m a PhD student in [Princeton ECE](https://ece.princeton.edu/), 
 
 I push the boundaries of **safety assurance for intelligent systems**. In doing so,
 
-- I integrate insights from **control theory**, **reinforcement learning (RL)**, and **dynamic game theory** to certify and enforce safety of high-dimensional, black-box systems under uncertainty.
-- I investigate the interplay between **humans and robots** in safety-critical scenarios and how to foster safe, smooth, and **trustworthy collaboration**.
+- (**Safety RL**) I integrate insights from control theory, reinforcement learning (RL), and dynamic game theory to certify and enforce safety of high-dimensional, black-box systems under uncertainty.
+- (**HRI**) I investigate the interplay between humans and robots in safety-critical scenarios and how to foster safe, smooth, and trustworthy collaboration.
 
 Ultimately, I envision a world where robots operate safely amidst other agents, including humans, in **unstructured, open-world environments**.
 
 ---
 
-Previously, I earned a B.S. in Aerospace Engineering and a B.S. in Artificial Intelligence at **Seoul National University**, Republic of Korea.
+Previously, I earned a B.S. in Aerospace Engineering and a B.S. in Artificial Intelligence at Seoul National University, Republic of Korea.
