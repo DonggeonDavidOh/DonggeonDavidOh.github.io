@@ -31,6 +31,8 @@ latest_posts:
 
 ---
 
+Hi there :) I’m a PhD student in [Princeton's ECE department](https://ece.princeton.edu/), working with [Prof. Jaime F. Fisac](https://saferobotics.princeton.edu/jaime).
+
 I push the boundaries of **safety assurance for intelligent systems**. In doing so,
 
 - I integrate insights from **control theory**, **reinforcement learning (RL)**, and **dynamic game theory** to certify and enforce safety of high-dimensional, black-box systems under uncertainty.
