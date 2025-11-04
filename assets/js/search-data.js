@@ -440,16 +440,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-work-on-ai-assited-car-racing-with-human-centered-safety-filters-has-been-accepted-to-rss-2025-see-you-at-la",
+          title: 'Our work on AI-assited car racing with human-centered safety filters has been accepted...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-lastest-work-on-safe-rl-with-guaranteed-optimaility-has-been-posted-on-arxiv",
+          title: 'Our lastest work on safe RL with guaranteed optimaility has been posted on...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
