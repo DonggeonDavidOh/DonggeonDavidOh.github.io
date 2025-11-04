@@ -321,6 +321,10 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    video_intro,
+    video_intro_caption,
+    video_talk,
+    video_talk_caption,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
