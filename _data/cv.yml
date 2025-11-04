@@ -1,196 +1,97 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Albert Einstein
-#     - name: Date of Birth
-#       value: 14th March 1879
-#     - name: Languages
-#       value: English, German
-
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: PhD
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1905
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Federal teaching diploma
-#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#       year: 1900
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
-
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
-
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
-
-# _data/cv.yml
-
-- title: Research Interests
-  type: list
+- title: General Information
+  type: map
   contents:
-    - "I push the boundaries of safety assurance for intelligent systems. In doing so:"
-    - "• I integrate insights from **control theory**, **reinforcement learning (RL)**, and **dynamic game theory** to certify and enforce safety of high-dimensional, black-box systems under uncertainty."
-    - "• I investigate the interplay between **humans and robots** in safety-critical scenarios and how to foster **safe**, **smooth**, and **trustworthy** collaboration."
-    - "Ultimately, I envision a world where robots operate safely amidst other agents, including humans, in **unstructured, open-world environments**."
+    - name: Full Name
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: "Ph.D. student, Department of Electrical and Computer Engineering"
-      institution: "Princeton University"
-      year: "July 2024 – May 2029 (Expected)"
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - "Advisor: Prof. Jaime Fernández Fisac"
-        - "Cumulative GPA: 3.90/4.00"
-    - title: "B.S. in Aerospace Engineering & B.S. in Artificial Intelligence"
-      institution: "Seoul National University"
-      year: "Mar. 2017 – Aug. 2024"
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - "Advisor: Prof. Hyoun Jin Kim"
-        - "Cumulative GPA: 4.11/4.30 (3.92/4.00) — ranked 2nd of 71 students."
+        - Description 1.
+        - Description 2.
 
-- title: Publications
-  type: nested_list
-  contents:
-    - title: Preprints
-      items:
-        - "D. D. Oh*, D. P. Nguyen*, H. Hu, J. F. Fisac. **Provably Optimal Reinforcement Learning under Safety Filtering**. *arXiv preprint arXiv:2510.18082*, 2025."
-    - title: Conference Proceedings
-      items:
-        - "D. D. Oh*, J. Lidard*, H. Hu, H. Sinhmar, E. Lazarski, D. Gopinath, E. S. Sumner, J. A. DeCastro, G. Rosman, N. E. Leonard, J. F. Fisac. **Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports**. *Proceedings of Robotics: Science and Systems (RSS)*, 2025."
-        - "D. D. Oh*, D. Lee*, H. J. Kim. **Safety-Critical Control Under Multiple State and Input Constraints and Application to Fixed-Wing UAV**. *62nd IEEE Conference on Decision and Control (CDC)*, 2023."
-        - "J. Byun, B. Kim, C. Kim, D. D. Oh, H. J. Kim. **Stable Contact Guaranteeing Motion/Force Control for an Aerial Manipulator on an Arbitrarily Tilted Surface**. *IEEE International Conference on Robotics and Automation (ICRA)*, 2023."
-        - "D. D. Oh, J. Byun, D. Lee. **Real-Time Trajectory Generation of a Quadrotor UAV with Load Suspended from a Pulley**. *International Conference on Control, Automation and Systems (ICCAS)*, 2022."
-
-- title: Scholarships & Awards
+- title: Experience
   type: time_table
   contents:
-    - title: "First Year Fellowship in Natural Sciences and Engineering"
-      institution: "Princeton University"
-      year: "Sept. 2024 – May 2025"
-    - title: "The Presidential Science Scholarship"
-      institution: "Republic of Korea"
-      year: "Mar. 2017 – Sept. 2022"
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - "National scholarship recognizing 120 top STEM students; conferred by the President of Korea."
-    - title: "Talent Award of Korea"
-      institution: "Republic of Korea (Ministry of Education)"
-      year: "Nov. 2016"
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - "National cross-disciplinary honor recognizing 100 outstanding Koreans across arts, entrepreneurship, STEM, etc.; conferred by the Deputy Prime Minister & Minister of Education of Korea."
+        - Description 1.
+        - Description 2.
 
-- title: Skills & Certification
-  type: map
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
   contents:
-    - name: Learning & Simulation
-      value: "PyTorch; MuJoCo; Safety Gymnasium; Assetto Corsa (high-fidelity car racing simulator)"
-    - name: Programming
-      value: "Python; MATLAB/Simulink; C/C++; Linux; Git"
-    - name: Hardware
-      value: "FANATEC sim-racing wheelbase and pedals; custom Linux force-feedback torque driver"
-    - name: Human Subjects Research
-      value: "CITI Program certified (IRB — Social & Behavioral Research Investigators, completed Nov. 2024); authored IRB protocol and materials; ran an in-lab user study (N=83) on human–safety filter interaction in Assetto Corsa"
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Academic Services
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: Academic Interests
   type: nested_list
   contents:
-    - title: Reviewer Service
+    - title: Topic 1.
       items:
-        - "IEEE Robotics and Automation Letters (RA-L), 2025"
-        - "International Conference on Neuro-symbolic Systems (NeuS), 2025"
-        - "ICRA Workshop on Public Trust in Autonomous Systems (PTAS), 2025"
-    - title: Advising and Mentorship
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
       items:
-        - "Elle Lazarski (undergraduate student, Princeton University), Sept. 2024 – Current"
+        - Description 1.
+        - Description 2.
 
-- title: References
-  type: nested_list
+- title: Other Interests
+  type: list
   contents:
-    - title: "Jaime Fernández Fisac — jfisac@princeton.edu"
-      items:
-        - "Assistant Professor of Electrical and Computer Engineering, Princeton University"
-    - title: "Naomi Ehrich Leonard — naomi@princeton.edu"
-      items:
-        - "Chair and Edwin S. Wilsey Professor of Mechanical and Aerospace Engineering, Princeton University"
-    - title: "Haimin Hu — haimin@cs.jhu.edu"
-      items:
-        - "Assistant Research Professor of Computer Science, Johns Hopkins University"
-    - title: "Guy Rosman — guy.rosman@tri.global"
-      items:
-        - "Manager of the Human Aware Interaction & Learning Team, Toyota Research Institute (TRI)"
-    - title: "Zixu Zhang — zhangzix@tesla.com"
-      items:
-        - "Senior Autopilot Machine Learning Scientist, Tesla"
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
