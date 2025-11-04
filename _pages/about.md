@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<strong>PhD student</strong> in <a href='https://saferobotics.princeton.edu/'><strong>Safe Robotics Lab</strong></a>, <strong>Princeton University</strong>"
+subtitle: "<strong>PhD student</strong> in <a href='https://saferobotics.princeton.edu/'>Safe Robotics Lab</a>, <strong>Princeton University</strong>"
 
 profile:
   align: right
