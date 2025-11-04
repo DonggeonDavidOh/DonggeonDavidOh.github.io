@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD student at <a href='https://saferobotics.princeton.edu/'>Safe Robotics Lab</a>, Princeton University
 
 profile:
   align: right
