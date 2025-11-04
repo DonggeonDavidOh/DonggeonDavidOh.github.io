@@ -254,7 +254,7 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
-    {%- comment -%} Put abstract above videos when this entry has inline videos {%- endcomment -%}
+    {%- comment -%} Put abstract/Bib above videos when this entry has inline videos {%- endcomment -%}
     {% assign has_embedded_videos = false %}
     {% if entry.video_intro or entry.video_talk %}
       {% assign has_embedded_videos = true %}
@@ -263,6 +263,14 @@
     {% if has_embedded_videos and entry.abstract %}
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    {% if has_embedded_videos and entry.bibtex_show %}
+      <div class="bibtex hidden">
+        {% highlight bibtex %}
+        {{- entry.bibtex | hideCustomBibtex -}}
+        {% endhighlight %}
       </div>
     {% endif %}
     {%- comment -%} ---- Inline videos for entries that define them ---- {%- endcomment -%}
@@ -402,7 +410,7 @@
       </div>
     {% endif %}
 
-    {% if entry.bibtex_show %}
+    {% if entry.bibtex_show and has_embedded_videos == false %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
         {% highlight bibtex %}
