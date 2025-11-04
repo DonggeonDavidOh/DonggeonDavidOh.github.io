@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student at <a href='https://saferobotics.princeton.edu/'>Safe Robotics Lab</a>, Princeton University
+subtitle: "<strong>PhD student</strong> at <a href='https://saferobotics.princeton.edu/'><strong>Safe Robotics Lab</strong></a>, <strong>Princeton University</strong>"
 
 profile:
   align: right
@@ -27,8 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Keywords:** **Safety-Critical Learning and Control**, **Human–Robot Interaction**, **Decision-Making under Uncertainty**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I push the boundaries of safety assurance for intelligent systems. In doing so,
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- I integrate insights from **control theory**, **reinforcement learning (RL)**, and **dynamic game theory** to certify and enforce safety of high-dimensional, black-box systems under uncertainty.
+- I investigate the interplay between **humans and robots** in safety-critical scenarios and how to foster safe, smooth, and trustworthy collaboration.
+
+Ultimately, I envision a world where robots operate safely amidst other agents, including humans, in unstructured, open-world environments.
+
+---
+
+Previously, I earned a B.S. in Aerospace Engineering and a B.S. in Artificial Intelligence at **Seoul National University**, Republic of Korea.
