@@ -28,7 +28,6 @@ latest_posts:
 ---
 
 <!-- **Keywords:** **Safety-Critical Learning and Control**, **Human–Robot Interaction**, **Decision-Making under Uncertainty**. -->
-<p><strong>Email:</strong> {% email do9948@princeton.edu %}</p>
 
 ---
 
