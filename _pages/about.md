@@ -9,38 +9,18 @@ profile:
   image: Donggeon_Oh.jpg
   image_circular: false
   more_info: >
-    <p style="margin:0 0 .75rem 0;">
-      <strong>Email:</strong>
+    <p><strong>email:</strong>
       <span id="email-slot">
         <button id="reveal-email"
-                class="btn btn-sm z-depth-0"
                 type="button"
-                data-e="ZG85OTQ4QHByaW5jZXRvbi5lZHU=">Click to reveal</button>
+                class="linklike"
+                style="background:none;border:0;padding:0;margin:0;font:inherit;line-height:inherit;color:var(--link-color);text-decoration:underline;cursor:pointer;"
+                data-e="ZG85OTQ4QHByaW5jZXRvbi5lZHU=">click to reveal</button>
       </span>
       <noscript>do9948 [at] princeton [dot] edu</noscript>
     </p>
-
     <script>
-    (function () {
-      var btn  = document.getElementById('reveal-email');
-      var slot = document.getElementById('email-slot');
-      if (!btn || !slot) return;
-
-      function d64(s){ try { return atob(s); } catch(e){ return ""; } }
-
-      btn.addEventListener('click', function () {
-        var addr = d64(btn.getAttribute('data-e')); // "do9948@princeton.edu"
-        if (!addr) return;
-
-        // Replace the entire button with a clickable mail link
-        var a = document.createElement('a');
-        a.href = 'mailto:' + addr;
-        a.textContent = addr;
-
-        slot.innerHTML = '';        // remove the button
-        slot.appendChild(a);        // show the email in its place
-      });
-    })();
+    (function(){var b=document.getElementById('reveal-email');var s=document.getElementById('email-slot');if(!b||!s)return;function d64(x){try{return atob(x)}catch(e){return""}}b.addEventListener('click',function(){var a=d64(b.getAttribute('data-e'));if(!a)return;var link=document.createElement('a');link.href='mailto:'+a;link.textContent=a;s.innerHTML='';s.appendChild(link);});})();
     </script>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
