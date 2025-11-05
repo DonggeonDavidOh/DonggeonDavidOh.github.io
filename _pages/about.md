@@ -7,22 +7,15 @@ subtitle: "<strong>PhD student</strong> in <a href='https://saferobotics.princet
 profile:
   align: right
   image: Donggeon_Oh.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p style="margin:0 0 .75rem 0;">
-      <strong>Email:</strong>
-      <button id="reveal-email"
-              class="btn btn-sm z-depth-0"
-              type="button"
-              data-e="ZG85OTQ4QHByaW5jZXRvbi5lZHU="  <!-- base64 of do9948@princeton.edu -->
-              aria-expanded="false">
-        Click to reveal
-      </button>
+    <p><strong>Email:</strong>
+      <button id="reveal-email" class="btn btn-sm z-depth-0" type="button"
+              data-e="ZG85OTQ4QHByaW5jZXRvbi5lZHU=" aria-expanded="false">Click to reveal</button>
       <span id="email-text" style="margin-left:.5rem;"></span>
-      <span id="email-status" style="margin-left:.5rem; opacity:.8;"></span>
+      <span id="email-status" style="margin-left:.5rem;opacity:.8;"></span>
       <noscript>do9948 [at] princeton [dot] edu</noscript>
     </p>
-
     <script>
     (function () {
       var btn = document.getElementById('reveal-email');
@@ -32,25 +25,8 @@ profile:
 
       var revealed = false;
       function d64(s){ try { return atob(s); } catch(e){ return ""; } }
-      function setStatus(msg){ if (status) { status.textContent = msg; setTimeout(function(){ status.textContent=""; }, 1500); } }
-
-      async function copyText(text){
-        try {
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            await navigator.clipboard.writeText(text);
-          } else {
-            // Fallback for older browsers
-            var ta = document.createElement('textarea');
-            ta.value = text;
-            ta.style.position = 'fixed';
-            ta.style.left = '-9999px';
-            document.body.appendChild(ta);
-            ta.select();
-            document.execCommand('copy');
-            document.body.removeChild(ta);
-          }
-          return true;
-        } catch (e) { return false; }
+      function setStatus(msg){
+        if (status){ status.textContent = msg; setTimeout(function(){ status.textContent=""; }, 1500); }
       }
 
       btn.addEventListener('click', async function () {
@@ -58,18 +34,24 @@ profile:
         if (!addr) return;
 
         if (!revealed) {
-          // First click: show the address text only
-          out.textContent = addr;
-          btn.textContent = 'Copy email';
+          out.textContent = addr;            // show text only
+          btn.textContent = 'Copy email';    // second click copies
           btn.setAttribute('aria-expanded', 'true');
           revealed = true;
           setStatus('Revealed');
         } else {
-          // Second (and subsequent) clicks: copy to clipboard
-          var ok = await copyText(addr);
-          setStatus(ok ? 'Copied!' : 'Copy failed');
-          if (ok) btn.textContent = 'Copied ✓';
-          setTimeout(function(){ btn.textContent = 'Copy again'; }, 1200);
+          try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              await navigator.clipboard.writeText(addr);
+            } else {
+              var ta = document.createElement('textarea');
+              ta.value = addr; ta.style.position='fixed'; ta.style.left='-9999px';
+              document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+            }
+            setStatus('Copied!');
+            btn.textContent = 'Copied ✓';
+            setTimeout(function(){ btn.textContent = 'Copy again'; }, 1200);
+          } catch (e) { setStatus('Copy failed'); }
         }
       });
     })();
