@@ -14,7 +14,7 @@ profile:
         <button id="reveal-email"
                 type="button"
                 class="linklike"
-                style="background:none;border:0;padding:0;margin:0;font:inherit;line-height:inherit;color:var(--link-color);text-decoration:underline;cursor:pointer;"
+                style="background:none;border:0;padding:0;margin:0;font:inherit;line-height:inherit;color:var(--link-color);cursor:pointer;"
                 data-e="ZG85OTQ4QHByaW5jZXRvbi5lZHU=">click to reveal</button>
       </span>
       <noscript>do9948 [at] princeton [dot] edu</noscript>
