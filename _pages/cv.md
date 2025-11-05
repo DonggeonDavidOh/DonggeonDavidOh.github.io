@@ -9,13 +9,16 @@ description: Please click the PDF icon to open or download my most up-to-date CV
 toc:
   sidebar: left
 --- -->
+
 ---
+
 layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 2
 description: Curriculum Vitae
+
 ---
 
 <!-- Top buttons -->
