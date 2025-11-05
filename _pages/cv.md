@@ -26,15 +26,16 @@ description: Curriculum Vitae
   <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/CV_Donggeon_Oh_251022.pdf' | relative_url }}" download>Download PDF</a>
 </p>
 
+<!-- Inline PDF preview -->
 <div style="position:relative;width:100%;height:100vh;border:1px solid #e5e5e5;border-radius:12px;overflow:hidden;">
   <object
     data="{{ '/assets/pdf/CV_Donggeon_Oh_251022.pdf#view=FitH' | relative_url }}"
     type="application/pdf"
     width="100%" height="100%">
     <!-- Fallback -->
-    <iframe
+    <embed
       src="{{ '/assets/pdf/CV_Donggeon_Oh_251022.pdf#view=FitH' | relative_url }}"
-      width="100%" height="100%" style="border:0;">
-    </iframe>
+      type="application/pdf"
+      width="100%" height="100%">
   </object>
 </div>
