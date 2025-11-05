@@ -23,8 +23,8 @@ description: Curriculum Vitae
 
 <!-- Top buttons -->
 <p>
-  <a class="btn btn-sm z-depth-0" href="{{ '/CV_Donggeon_Oh_251022.pdf' | relative_url }}" target="_blank" rel="noopener">Open in new tab</a>
-  <a class="btn btn-sm z-depth-0" href="{{ '/CV_Donggeon_Oh_251022.pdf' | relative_url }}" download>Download PDF</a>
+  <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/CV_Donggeon_Oh_251022.pdf' | relative_url }}" target="_blank" rel="noopener">Open in new tab</a>
+  <a class="btn btn-sm z-depth-0" href="{{ '/assets/pdf/CV_Donggeon_Oh_251022.pdf' | relative_url }}" download>Download PDF</a>
 </p>
 
 <!-- Inline PDF preview (no SCSS; styled inline) -->
