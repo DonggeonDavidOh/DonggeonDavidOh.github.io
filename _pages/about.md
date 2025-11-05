@@ -9,13 +9,23 @@ profile:
   image: Donggeon_Oh.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><strong>Email:</strong> <span id="em"></span></p>
+    <p><strong>Email:</strong>
+      <button id="mail" data-e="ZG85OTQ4QHByaW5jZXRvbi5lZHU=" class="btn btn-sm z-depth-0" type="button">
+        Click to email
+      </button>
+      <noscript>do9948 [at] princeton [dot] edu</noscript>
+    </p>
     <script>
       (function () {
-        var u = "do9948", d = "princeton.edu";
-        var a = u + "@" + d;
-        var el = document.getElementById("em");
-        if (el) el.innerHTML = '<a href="mailto:' + a + '">' + a + "</a>";
+        var b = document.getElementById('mail');
+        if (!b) return;
+        // decode base64 on click; no mailto in DOM before interaction
+        function d64(s){try{return atob(s);}catch(e){return "";}}
+        b.addEventListener('click', function () {
+          var addr = d64(b.dataset.e);           // "do9948@princeton.edu"
+          if (!addr) return;
+          window.location = 'mailto:' + addr;    // only created at click time
+        });
       })();
     </script>
 
