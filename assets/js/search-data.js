@@ -391,14 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-work-on-ai-assisted-car-racing-with-human-centered-safety-filters-has-been-accepted-to-rss-2025-see-you-in-la",
+            },},{id: "news-i-presented-our-work-on-optimality-of-rl-under-safety-filtering-at-at-iaseai-26-at-unesco-house-paris",
+          title: 'I presented our work on optimality of RL under safety filtering at at...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-ai-assisted-car-racing-with-human-centered-safety-filters-has-been-accepted-to-rss-2025-see-you-in-la",
           title: 'Our work on AI-assisted car racing with human-centered safety filters has been accepted...',
           description: "",
           section: "News",},{id: "news-our-latest-work-on-optimality-of-rl-under-safety-filtering-has-been-posted-on-arxiv",
           title: 'Our latest work on optimality of RL under safety filtering has been posted...',
-          description: "",
-          section: "News",},{id: "news-i-presented-our-work-on-optimality-of-rl-under-safety-filtering-at-at-iaseai-26-at-unesco-house-paris",
-          title: 'I presented our work on optimality of RL under safety filtering at at...',
           description: "",
           section: "News",},{id: "news-new-prepint-alert-check-out-our-latest-work-on-synthesis-and-deployment-of-maximal-robust-cbfs-for-black-box-systems",
           title: 'New prepint alert! Check out our latest work on synthesis and deployment of...',
