@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I presented our work on [optimality of RL under safety filtering](https://arxiv.org/abs/2510.18082) at at IASEAI’26 at UNESCO House (Paris)!
+I presented our work on [optimality of RL under safety filtering](https://arxiv.org/abs/2510.18082) at IASEAI’26 at UNESCO House (Paris)!
