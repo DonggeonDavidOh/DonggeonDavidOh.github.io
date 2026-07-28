@@ -115,9 +115,23 @@
 }
 }
 
-@article{oh2026synthesis,
+@inproceedings{wang2026handbook,
   bibtex_show={true},
-  abbr={arXiv},
+  abbr={CDC},
+  selected={false},
+  preview={png_CDC_2026.png},
+  abstract={Safety is a central concern in modern autonomous systems. Safety certificates—functions whose existence guarantee that a system meets its safety specification—have long been used as a principled tool for rigorously reasoning about safety. Methods for synthesizing such certificates are scattered across research areas, with little guidance on when to use a particular approach. This tutorial provides a holistic treatment of safety certificate synthesis centered on two widely used families: Hamilton-Jacobi (HJ) reachability analysis and Control Barrier Functions (CBFs). For each, we present its formulation along with classical and learning-based synthesis tools. We further introduce a benchmark problem, built on two vehicle systems of differing complexity, for assessing certificate quality and effectiveness in safety-critical control. We use this benchmark to compare various methods and provide practical guidance for selecting an approach.},
+  title={Handbook on safety certificates: Techniques from {{Hamilton--Jacobi}} reachability analysis and control barrier functions},
+  author={Hao Wang and Max Cohen and Zeyuan Feng and Donggeon David Oh and Oswin So and Songyuan Zhang and Javier Borquez and Chuchu Fan and Jaime F. Fisac and Haimin Hu and Somil Bansal and Jason J. Choi},
+  booktitle={2026 65th IEEE Conference on Decision and Control (CDC)},
+  pages={tutorial paper, to appear},
+  year={2026},
+  organization={IEEE}
+}
+
+@inproceedings{oh2026synthesis,
+  bibtex_show={true},
+  abbr={CDC},
   selected={true},
   preview={gif_CDC_2026.gif},
   abstract={Robust control barrier functions (CBFs) provide a principled mechanism for smooth safety enforcement under worst-case disturbances. However, existing approaches typically rely on explicit, closed-form structure in the dynamics (e.g., control-affine) and uncertainty models. This has led to limited scalability and generality, with most robust CBFs certifying only conservative subsets of the maximal robust safe set. In this paper, we introduce a new robust CBF framework for general nonlinear systems under bounded uncertainty. We first show that the safety value function solving the dynamic programming Isaacs equation is a valid robust discrete-time CBF that enforces safety on the maximal robust safe set. We then adopt the key reinforcement learning (RL) notion of quality function (or Q-function), which removes the need for explicit dynamics by lifting the barrier certificate into state-action space and yields a novel robust Q-CBF constraint for safety filtering. Combined with adversarial RL, this enables the synthesis and deployment of robust Q-CBFs on general nonlinear systems with black-box dynamics and unknown uncertainty structure. We validate the framework on a canonical inverted pendulum benchmark and a 36-D quadruped simulator, achieving substantially less conservative safe sets than barrier-based baselines on the pendulum and reliable safety enforcement even under adversarial uncertainty realizations on the quadruped.},
@@ -125,8 +139,10 @@
   pdf={oh2026synthesis.pdf},
   title={Synthesis and Deployment of Maximal Robust Control Barrier Functions through Adversarial Reinforcement Learning},
   author={Oh, Donggeon David and Nguyen, Duy P and Hu, Haimin and Fisac, Jaime Fern{\'a}ndez},
-  journal={arXiv preprint arXiv:2604.13192},
-  year={2026}
+  booktitle={2026 65th IEEE Conference on Decision and Control (CDC)},
+  pages={to appear},
+  year={2026},
+  organization={IEEE}
 }
 
 @inproceedings{oh2026provably,
@@ -139,8 +155,11 @@
   pdf={oh2026provably.pdf},
   annotation={* Equal Contribution},
   title={Provably Optimal Reinforcement Learning under Safety Filtering},
-  author={Oh*, Donggeon David and Nguyen*, Duy P and Hu, Haimin and Fisac, Jaime F},
-  booktitle={International Association for Safe & Ethical AI},
+  author={Oh*, Donggeon David and Nguyen*, Duy P and Hu, Haimin and Fisac, Jaime Fern{\'a}ndez},
+  booktitle={Proceedings of IASEAI Conference},
+  volume={2},
+  number={1},
+  pages={488--500},
   year={2026}
 }
 
