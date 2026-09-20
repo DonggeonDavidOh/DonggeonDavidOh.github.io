@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out our latest work on [Strict Reach–Avoid–Stay Control Barrier Functions for High-Dimensional Black-Box Systems](https://arxiv.org/abs/2609.19449), now made public on arXiv!
+Check out our latest work on [strict reach–avoid–stay CBFs for high-dimensional black-box systems](https://arxiv.org/abs/2609.19449), now made public on arXiv!
