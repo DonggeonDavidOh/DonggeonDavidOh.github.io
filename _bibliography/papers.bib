@@ -115,6 +115,21 @@
 }
 }
 
+@inproceedings{oh2026winning,
+  bibtex_show={true},
+  abbr={arXiv},
+  selected={true},
+  preview={gif_ICRA_2027.gif},
+  abstract={Robots must complete their tasks and maintain the achieved outcomes while avoiding safety failures at all times. Strict reach–avoid–stay (sRAS) formalizes this requirement: safely reaching a target and remaining there indefinitely after first entry. We propose an sRAS Q-control barrier function (CBF) safety filter for high-dimensional black-box systems under bounded uncertainty. Our construction combines a stay value encoding safe permanent residence in a target subset with a reach–avoid value encoding safe reachability of this subset while avoiding target states from which safe permanent residence cannot be guaranteed. We prove that these values jointly yield a valid robust discrete-time CBF and lift them to state–action Q-functions for runtime intervention. For exact values and under a measure-zero condition, our filter preserves sRAS feasibility from almost every winnable initial state and keeps the system safely within the target after first entry, against all admissible uncertainty realizations. We adopt reachability-based adversarial reinforcement learning for scalable value approximation using only black-box interactions. Notably, neither synthesis nor deployment of our filter requires known dynamics, affine structure, value derivatives, or hand-designed barriers. We validate our framework in quadruped gap jumping in simulation and hardware, where the robot crosses the gap, lands safely, and remains safe afterward. Simulated F1TENTH races further demonstrate safe overtaking and lead retention.},
+  arxiv={2609.19449},
+  pdf={oh2026winning.pdf},
+  title={Winning a Won Game: Strict Reach–Avoid–Stay Control Barrier Functions for High-Dimensional Black-Box Systems},
+  author={Oh, Donggeon David and Nguyen, Duy P and Yuan, Gongkai and Li, Qingchen and Hu, Haimin and Fisac, Jaime Fern{\'a}ndez},
+  booktitle={arXiv preprint arXiv:2609.19449},
+  year={2026},
+}
+
+
 @inproceedings{wang2026handbook,
   bibtex_show={true},
   abbr={CDC},
@@ -132,7 +147,7 @@
 @inproceedings{oh2026synthesis,
   bibtex_show={true},
   abbr={CDC},
-  selected={true},
+  selected={false},
   preview={gif_CDC_2026.gif},
   abstract={Robust control barrier functions (CBFs) provide a principled mechanism for smooth safety enforcement under worst-case disturbances. However, existing approaches typically rely on explicit, closed-form structure in the dynamics (e.g., control-affine) and uncertainty models. This has led to limited scalability and generality, with most robust CBFs certifying only conservative subsets of the maximal robust safe set. In this paper, we introduce a new robust CBF framework for general nonlinear systems under bounded uncertainty. We first show that the safety value function solving the dynamic programming Isaacs equation is a valid robust discrete-time CBF that enforces safety on the maximal robust safe set. We then adopt the key reinforcement learning (RL) notion of quality function (or Q-function), which removes the need for explicit dynamics by lifting the barrier certificate into state-action space and yields a novel robust Q-CBF constraint for safety filtering. Combined with adversarial RL, this enables the synthesis and deployment of robust Q-CBFs on general nonlinear systems with black-box dynamics and unknown uncertainty structure. We validate the framework on a canonical inverted pendulum benchmark and a 36-D quadruped simulator, achieving substantially less conservative safe sets than barrier-based baselines on the pendulum and reliable safety enforcement even under adversarial uncertainty realizations on the quadruped.},
   arxiv={2604.13192},
