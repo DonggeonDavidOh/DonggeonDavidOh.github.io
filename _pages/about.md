@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<strong>PhD student</strong> in <a href='https://saferobotics.princeton.edu/'>Safe Robotics Lab</a>, <strong>Princeton University</strong>"
+subtitle: "<strong>PhD candidate</strong> in <a href='https://saferobotics.princeton.edu/'>Safe Robotics Lab</a>, <strong>Princeton University</strong>"
 
 profile:
   align: right
@@ -41,7 +41,7 @@ latest_posts:
 
 ---
 
-Hi there :) I’m a PhD student in [Princeton ECE](https://ece.princeton.edu/), working with [Prof. Jaime F. Fisac](https://saferobotics.princeton.edu/jaime).
+Hi there :) I’m a PhD candidate in [Princeton ECE](https://ece.princeton.edu/), working with [Prof. Jaime F. Fisac](https://saferobotics.princeton.edu/jaime).
 
 I push the boundaries of **safety assurance for intelligent systems**. In doing so,
 
